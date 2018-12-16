@@ -16,4 +16,3 @@ func main() {
 	fmt.Println(y)
 	fmt.Println(z)
 }
-
