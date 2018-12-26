@@ -4,15 +4,15 @@ import "fmt"
 
 type person struct {
 	first string
-	last string
-	age int
+	last  string
+	age   int
 }
 
 func main() {
-	v := person {
+	v := person{
 		first: "Dr",
-		last: "Seuss",
-		age: 88,
+		last:  "Seuss",
+		age:   88,
 	}
 	v.speak()
 }
